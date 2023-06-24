@@ -2,8 +2,7 @@
   "name": "chatui",
   "version": "0.1.0",
   "homepage": "http://Siva70136.github.io/Assignment_exact_space", 
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  
   "build": "react-scripts build && cp build/index.html build/404.html",
   "private": true,
   "dependencies": {
@@ -20,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
